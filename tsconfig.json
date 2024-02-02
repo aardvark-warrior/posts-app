@@ -24,7 +24,9 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+
+    "inlineSourceMap": true
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
