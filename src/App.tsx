@@ -1,9 +1,11 @@
-import { Button } from "./components/ui/button";
+import Feed from "./components/feed";
+import Sidebar from "./components/sidebar";
 
 function App() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen">
-      <Button>Hello, world!</Button>
+    <div className="flex justify-center min-h-screen gap-3">
+      <Sidebar />
+      <Feed />
     </div>
   );
 }
